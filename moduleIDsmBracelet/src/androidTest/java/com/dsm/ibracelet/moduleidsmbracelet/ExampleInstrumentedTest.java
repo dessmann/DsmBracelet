@@ -1,4 +1,4 @@
-package com.dsm.bracelet;
+package com.dsm.ibracelet.moduleidsmbracelet;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.dsm.bracelet", appContext.getPackageName());
+        assertEquals("com.dsm.bracelet.moduleidsmbracelet.test", appContext.getPackageName());
     }
 }

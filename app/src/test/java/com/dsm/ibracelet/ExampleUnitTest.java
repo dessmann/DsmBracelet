@@ -1,4 +1,4 @@
-package com.dsm.bracelet;
+package com.dsm.ibracelet;
 
 import org.junit.Test;
 

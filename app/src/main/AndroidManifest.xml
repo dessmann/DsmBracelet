@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.dsm.bracelet">
+          package="com.dsm.ibracelet">
 
     <application
         android:allowBackup="true"
