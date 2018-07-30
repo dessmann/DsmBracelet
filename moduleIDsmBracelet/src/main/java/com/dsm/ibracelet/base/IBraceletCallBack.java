@@ -1,4 +1,4 @@
-package com.dsm.ibracelet.dao;
+package com.dsm.ibracelet.base;
 
 import java.util.List;
 
