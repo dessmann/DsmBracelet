@@ -1,22 +1,30 @@
 package com.dsm.ibracelet.bean;
 
 /**
- * 作者：云渡山<br>
+ * 作者：德施曼<br>
  * 创建时间：2018/7/17 14 18 星期二<br>
  * 功能描述：简要数据<br>
  */
 public class Summary {
-    /*{//运动基本统计数据
-        "distance":209.8,//行走距离
-        "steps":300,//行走步数
-        "sleepScore":5.2,//睡眠质量，大于4.5为优，大于3小于4.5为良，3以下为一般 范围 0-8 刻度0.1
-        "sleepMinutes":205,//睡眠时长，单位为分钟，最大值为480
-        "energyinkcal":103//消耗能量，单位为大卡，最大值200
-    }*/
+    /**
+     * 行走距离
+     */
     private Float distance;
+    /**
+     * 行走步数
+     */
     private Integer steps;
+    /**
+     * 睡眠质量，大于4.5为优，大于3小于4.5为良，3以下为一般 范围 0-8 刻度0.1
+     */
     private Float sleepScore;
+    /**
+     * 睡眠时长，单位为分钟，最大值为480
+     */
     private Integer sleepMinutes;
+    /**
+     * 消耗能量，单位为大卡，最大值200
+     */
     private Integer energyinkcal;
 
     public Float getDistance() {

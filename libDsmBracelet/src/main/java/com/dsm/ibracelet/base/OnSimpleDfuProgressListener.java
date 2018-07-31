@@ -1,11 +1,9 @@
 package com.dsm.ibracelet.base;
 
 /**
- * 作者：dccjll<br>
+ * 作者：德施曼<br>
  * 创建时间：2017/11/6 13:36<br>
- * 功能描述：<br>
- * 简单的DFU升级监听器<br/>
- * 包装层适用
+ * 功能描述：简单的DFU升级监听器<br>
  */
 public interface OnSimpleDfuProgressListener {
 

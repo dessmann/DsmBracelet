@@ -1,22 +1,30 @@
 package com.dsm.ibracelet.bean;
 
 /**
- * 作者：云渡山<br>
+ * 作者：德施曼<br>
  * 创建时间：2018/7/17 14 15 星期二<br>
  * 功能描述：运动的时间线数据<br>
  */
 public class TimeLine {
-    /*{
-        "startMillis":"2018-07-11 19:37:00",//运动的开始时间
-        "endMillis":"2018-07-11 22:35:00",//运动的结束时间
-        "energy":3.12//消耗的能量，单位：大卡
-        "steps":37//如果code表示的运动类型是散步，则为具体步数
-        "code":1//具体的运动类型 0 未佩戴手环 1 充电 2 浅睡眠 3 深睡眠 4 清醒 5 静 6 活动 7 散步 8 坐车 9 热身 10 健走 11 跑步 12 运动 13 游泳 14 自行车 15 健身 16 羽毛球
-    }*/
+    /**
+     * 运动的开始时间
+     */
     private Long startMillis;
+    /**
+     * 运动的结束时间
+     */
     private Long endMillis;
+    /**
+     * 消耗的能量，单位：大卡
+     */
     private Float energy;
+    /**
+     * 如果code表示的运动类型是散步，则为具体步数
+     */
     private Integer steps;
+    /**
+     * 具体的运动类型 0 未佩戴手环 1 充电 2 浅睡眠 3 深睡眠 4 清醒 5 静 6 活动 7 散步 8 坐车 9 热身 10 健走 11 跑步 12 运动 13 游泳 14 自行车 15 健身 16 羽毛球
+     */
     private Integer code;
 
     public Long getStartMillis() {
