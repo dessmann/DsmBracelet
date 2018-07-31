@@ -15,4 +15,5 @@
 /build
 /captures
 .externalNativeBuild
-/gradlew*
+gradlew
+gradlew.bat
