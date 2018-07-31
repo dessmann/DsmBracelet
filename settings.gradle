@@ -1,1 +1,1 @@
-include ':app', ':moduleDsmBracelet', ':moduleIDsmBracelet'
+include ':app', ':libDsmBracelet'

@@ -1,4 +1,4 @@
-package com.dsm.ibracelet.dao;
+package com.dsm.ibracelet.service;
 
 import com.dsm.ibracelet.base.IBraceletCallBack;
 import com.dsm.ibracelet.base.OnSimpleDfuProgressListener;

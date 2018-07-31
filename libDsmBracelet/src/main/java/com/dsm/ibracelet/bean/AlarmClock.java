@@ -8,7 +8,7 @@ import java.util.Arrays;
  * 功能描述：闹钟<br>
  */
 public class AlarmClock {
-    private int alarmID;//闹钟 ID： 1 ~ 5
+    private int alarmID;//闹钟 ID： 1 ~ 5，最多支持5个闹钟
     private boolean isOn;//是否开启
     private boolean lazyMode;//懒人模式
     private int hour;//小时
