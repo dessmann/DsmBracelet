@@ -12,9 +12,10 @@ allprojects {
 }
 ```
 ### Step 2. Add the dependency
+当前最新版本为0.8.3
 ```
 dependencies {
-	        implementation 'com.github.dessmann:DsmBracelet:V0.8.1'
+	        implementation 'com.github.dessmann:DsmBracelet:0.8.3'
 }
 ```
 ## 二.需要实现的接口
