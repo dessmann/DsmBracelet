@@ -182,4 +182,4 @@ dependencies {
 + 广播名字格式为 dsm-bl-[厂家标识]-[手环mac地址后四位], bl解释为bracelet的简写
 + 比如某个乐心手环的mac地址为DB:E5:F5:0D:86:69,则广播的名字为dsm-bl-002-8669
 ### dfu空中升级
-+ sdk中已集成no.nordicsemi.android:dfu:0.6.2版本固件升级库，上层sdk请直接饮用，不需要再重新集成
++ sdk中已集成no.nordicsemi.android:dfu:0.6.2版本固件升级库，上层sdk请直接引用，不需要再重新集成
