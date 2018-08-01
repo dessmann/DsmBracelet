@@ -25,7 +25,7 @@ public class Summary {
     /**
      * 消耗能量，单位为大卡，最大值200
      */
-    private Integer energyinkcal;
+    private Float energyinkcal;
 
     public Float getDistance() {
         return distance;
@@ -63,11 +63,11 @@ public class Summary {
         return this;
     }
 
-    public Integer getEnergyinkcal() {
+    public Float getEnergyinkcal() {
         return energyinkcal;
     }
 
-    public Summary setEnergyinkcal(Integer energyinkcal) {
+    public Summary setEnergyinkcal(Float energyinkcal) {
         this.energyinkcal = energyinkcal;
         return this;
     }
