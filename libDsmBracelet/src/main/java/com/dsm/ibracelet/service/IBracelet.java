@@ -173,4 +173,38 @@ public interface IBracelet {
      */
     boolean isDebuging();
 
+    /**
+     * 21：发送App自定义的消息
+     * @param title 标题
+     * @param msg   消息内容
+     * @param iBraceletCallBack 结果回调 {@link IBraceletCallBack} 回调接口
+     */
+    void sendAppMsg(String title, String msg, IBraceletCallBack iBraceletCallBack);
+
+    /**
+     * 22：发送来电提醒消息
+     * @param type  消息类型 1 新增来电提醒消息 2 移除来电提醒消息
+     * @param phone 来电提醒的手机号码 type为1时有效 type为2时为空
+     * @param phoneName 来电提醒的手机号码对应的用户昵称 type为1时有效 type为2时为空
+     * @param iBraceletCallBack 结果回调 {@link IBraceletCallBack} 回调接口
+     */
+    void sendIncomingCallNotify(int type, String phone, String phoneName, IBraceletCallBack iBraceletCallBack);
+
+    /**
+     * 23：发送短信提醒消息
+     * @param msgId 短信ID
+     * @param msg   短信内容
+     * @param iBraceletCallBack 结果回调 {@link IBraceletCallBack} 回调接口
+     */
+    void sendMsgNotify(int msgId, String msg, IBraceletCallBack iBraceletCallBack);
+
+    /**
+     * 24：发送第三方App的消息
+     * @param thirdType 第三方App标记 1 QQ 2 微信
+     * @param appId 第三方APP ID标记
+     * @param msgId 消息ID
+     * @param msg   消息内容
+     * @param iBraceletCallBack 结果回调 {@link IBraceletCallBack} 回调接口
+     */
+    void sendThirdAppMsg(int thirdType, int appId, int msgId, String msg, IBraceletCallBack iBraceletCallBack);
 }
